@@ -57,7 +57,7 @@
                             <outlet property="delegate" destination="XhQ-MN-gdP" id="fxg-73-Jql"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="gNg-rW-Tgt"/>
+                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="gNg-rW-Tgt"/>
                     <navigationItem key="navigationItem" title="Personen" id="Zjb-cc-C7D"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8fO-MN-swv" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -123,7 +123,7 @@
             </objects>
             <point key="canvasLocation" x="1591.2" y="-163.26836581709148"/>
         </scene>
-        <!--Item-->
+        <!--Toon IedereenVC-->
         <scene sceneID="A0i-e7-alR">
             <objects>
                 <viewController id="Zfn-vg-ExJ" customClass="toonIedereenVC" customModule="iOS_w1" customModuleProvider="target" sceneMemberID="viewController">
@@ -147,7 +147,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3UJ-V0-5Hr"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="1as-8L-Ktj"/>
+                    <tabBarItem key="tabBarItem" systemItem="more" id="1as-8L-Ktj"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="myMapView" destination="Gdx-Ls-FFH" id="RnB-DC-qNo"/>
@@ -209,6 +209,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="i3f-zQ-Mpd"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jaH-a0-Puq">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
